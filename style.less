@@ -1,0 +1,41 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  html {
+    background-color: gray;
+  }
+  
+  @media (min-width: 100px) {
+    nav {
+      margin: 8px 8px 8px 8px;
+      padding: 8px 8px 8px 8px;
+      /*background-color: gray;*/
+      height: 100%;
+      text-align: right;
+      position: fixed;
+      width: 180px;
+    }
+    nav ul {
+      list-style: none;
+    }
+    nav ul li {
+      border: 1px solid gray;
+      margin: 8px 8px 8px 8px;
+      padding: 8px 8px 8px 8px;
+    }
+  
+    section {
+      padding: 8px 8px 8px 8px;
+      border: 1px solid gray;
+      background-color: white;
+      text-align: left;
+    }
+    section article {
+      border: 1px solid gray;
+      margin: 8px 8px 8px 188px;
+      padding: 8px 8px 8px 8px;
+    }
+  }
